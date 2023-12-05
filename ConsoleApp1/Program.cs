@@ -18,7 +18,7 @@ public class Program
     {
         try
         {
-            _botClient = new TelegramBotClient("6515335903:AAEsVDpD_hkDqm1P3I939W1REtMqN7Yvq0w");
+            _botClient = new TelegramBotClient("<API TOKEN>");
 
             var me = await _botClient.GetMeAsync();
 
