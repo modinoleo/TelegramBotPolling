@@ -6,7 +6,7 @@ class Program
 
     static async Task Main()
     {
-        _botClient = new TelegramBotClient("6515335903:AAGOiynxLZ5NjHfSljOo7B-IxbYCkTfvRiQ");
+        _botClient = new TelegramBotClient("<API TOKEN>");
 
         var me = await _botClient.GetMeAsync();
         Console.Title = me.Username;
